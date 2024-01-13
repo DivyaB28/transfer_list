@@ -1,0 +1,32 @@
+main h1 {
+  text-align: center;
+}
+main .container {
+  display: flex;
+  justify-content: center;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+main .container .list {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem 4rem;
+  max-width: 40rem;
+  border: 0.1em solid rgba(12, 12, 12, 0.3);
+  border-radius: 2rem;
+}
+main .container .list .input_list {
+  margin: 0.5rem 0;
+}
+main .container .list:nth-of-type(even) {
+  border: 0;
+}
+main .container .list:nth-of-type(even) p {
+  border: 0.1em solid rgb(148, 145, 145);
+  padding: 1em;
+  border-radius: 1rem;
+}
+main .container .list:nth-of-type(even) p:hover {
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}/*# sourceMappingURL=App.css.map */
